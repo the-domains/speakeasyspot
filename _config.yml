@@ -1,14 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.1071679
 color:
-  saturation: 0.3934652
-  lightness: 0.995979
+  saturation: 0.840494
   brandStrength: 0.5128624
-  rhythmicContrast: 0.5795208
+  lightness: 0.2819549
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-typography_spectrum: 0.1071679
+  rhythmicContrast: 0.07787325
+layout_spectrum: 1
 name: SpeakeasySpot
